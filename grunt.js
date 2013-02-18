@@ -49,6 +49,9 @@ module.exports = function(grunt) {
         waits: true,
         waitsFor: true,
         xdescribe: true,
+        require: true,
+        baseUrl: true,
+        csPath: true,
         xit: true
       }
     },

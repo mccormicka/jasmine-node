@@ -16,12 +16,13 @@ describe('Testing some characters', function()  {
 
 describe('Testing waitsfor functionality', function() {
     it("Runs and then waitsFor", function() {
+        var counter = 0;
         runs(function() {
             1+1;
         });
         waitsFor(function() {
-            return true === false;
-        }, "the impossible", 1000);
+            return ++counter > 100
+        }, "a short time", 1000);
         runs(function() {
             expect(true).toBeTruthy();
         });
