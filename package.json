@@ -38,7 +38,8 @@
     "mkdirp": "~0.3.5",
     "jscoverage": "~0.3.4",
     "rimraf": "~2.1.4",
-    "glob": "~3.2.1"
+    "glob": "~3.2.1",
+    "covershot":"https://github.com/mccormicka/node-covershot/archive/master.tar.gz"
   },
   "bin": {
     "jasmine-node": "bin/jasmine-node"
